@@ -1,5 +1,5 @@
 * {
-  background-color: #99DDC8 ;
+  background-color: #283F3B ;
 }
 
 .App {
@@ -19,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #99DDC8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,6 +42,10 @@
   }
 }
 
+header {
+  background-color: #283F3B;
+}
+
 header ul {
   display: flex;
   justify-content: space-evenly;
@@ -62,3 +66,4 @@ header ul li a{
   text-decoration: none;
   color: #556F44;
 }
+

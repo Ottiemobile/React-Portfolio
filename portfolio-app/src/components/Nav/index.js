@@ -1,6 +1,13 @@
 import React from 'react';
+import About from './'
 
 function Nav(props) {
+
+    const {
+        pages = [],
+        setCurrentPage,
+        currentPage,
+    } = props;
     return (
         <div>
         <header>
